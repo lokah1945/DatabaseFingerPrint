@@ -1,0 +1,152 @@
+{
+  "_id": {
+    "$oid": "691e6c0f2b26615249393a88"
+  },
+  "metadata": {
+    "version": "2.0.0",
+    "last_updated": "2026-02-01",
+    "source": "StatCounter Global Stats Jan 2026"
+  },
+  "global_browser_market_share": {
+    "Chrome": 68.97,
+    "Safari": 16.4,
+    "Edge": 4.55,
+    "Firefox": 3.46,
+    "Opera": 1.82,
+    "Other": 4.8
+  },
+  "operating_systems": {
+    "Windows 11": {
+      "market_share_global": 34.34,
+      "platformVersion": "10.0.22631.0",
+      "browsers": {
+        "Chrome": {
+          "market_share": 64.5,
+          "usage_count": 0
+        },
+        "Edge": {
+          "market_share": 18.2,
+          "usage_count": 0
+        },
+        "Firefox": {
+          "market_share": 7.8,
+          "usage_count": 0
+        },
+        "Opera": {
+          "market_share": 3.5,
+          "usage_count": 0
+        },
+        "Brave": {
+          "market_share": 2.8,
+          "usage_count": 0
+        },
+        "Other": {
+          "market_share": 3.2,
+          "usage_count": 0
+        }
+      }
+    },
+    "Windows 10": {
+      "market_share_global": 30.25,
+      "platformVersion": "10.0.19045.0",
+      "browsers": {
+        "Chrome": {
+          "market_share": 63.8,
+          "usage_count": 0
+        },
+        "Edge": {
+          "market_share": 17.5,
+          "usage_count": 0
+        },
+        "Firefox": {
+          "market_share": 8.2,
+          "usage_count": 0
+        },
+        "Opera": {
+          "market_share": 3.8,
+          "usage_count": 0
+        },
+        "Brave": {
+          "market_share": 2.5,
+          "usage_count": 0
+        },
+        "IE": {
+          "market_share": 1.2,
+          "usage_count": 0
+        },
+        "Other": {
+          "market_share": 3.0,
+          "usage_count": 0
+        }
+      }
+    },
+    "macOS": {
+      "market_share_global": 11.79,
+      "platformVersion": "14.0.0",
+      "browsers": {
+        "Safari": {
+          "market_share": 52.3,
+          "usage_count": 0
+        },
+        "Chrome": {
+          "market_share": 31.5,
+          "usage_count": 0
+        },
+        "Firefox": {
+          "market_share": 7.8,
+          "usage_count": 0
+        },
+        "Edge": {
+          "market_share": 4.2,
+          "usage_count": 0
+        },
+        "Brave": {
+          "market_share": 2.1,
+          "usage_count": 0
+        },
+        "Opera": {
+          "market_share": 1.3,
+          "usage_count": 0
+        },
+        "Other": {
+          "market_share": 0.8,
+          "usage_count": 0
+        }
+      }
+    },
+    "Linux": {
+      "market_share_global": 4.02,
+      "platformVersion": "x86_64",
+      "browsers": {
+        "Firefox": {
+          "market_share": 42.5,
+          "usage_count": 0
+        },
+        "Chrome": {
+          "market_share": 38.2,
+          "usage_count": 0
+        },
+        "Chromium": {
+          "market_share": 8.5,
+          "usage_count": 0
+        },
+        "Edge": {
+          "market_share": 4.3,
+          "usage_count": 0
+        },
+        "Opera": {
+          "market_share": 2.8,
+          "usage_count": 0
+        },
+        "Brave": {
+          "market_share": 2.2,
+          "usage_count": 0
+        },
+        "Other": {
+          "market_share": 1.5,
+          "usage_count": 0
+        }
+      }
+    }
+  }
+}
