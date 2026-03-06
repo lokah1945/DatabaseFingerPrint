@@ -1,0 +1,266 @@
+{
+  "windows": {
+    "tier_0": {
+      "CLEAN": {
+        "weight": 0.7,
+        "packs": [
+          "base"
+        ],
+        "description": "Fresh Windows install, no extra software"
+      },
+      "OFFICE": {
+        "weight": 0.25,
+        "packs": [
+          "base",
+          "office"
+        ],
+        "description": "Corporate laptop with MS Office"
+      },
+      "LEGACY": {
+        "weight": 0.05,
+        "packs": [
+          "base",
+          "legacy"
+        ],
+        "description": "Older Windows installation with legacy fonts"
+      }
+    },
+    "tier_1_2": {
+      "OFFICE": {
+        "weight": 0.6,
+        "packs": [
+          "base",
+          "office"
+        ],
+        "description": "Office worker/student with MS Office"
+      },
+      "CLEAN": {
+        "weight": 0.2,
+        "packs": [
+          "base"
+        ],
+        "description": "Minimal software, clean install"
+      },
+      "TECH": {
+        "weight": 0.1,
+        "packs": [
+          "base",
+          "office",
+          "google_fonts",
+          "developer"
+        ],
+        "description": "Developer with modern fonts"
+      },
+      "CREATIVE": {
+        "weight": 0.05,
+        "packs": [
+          "base",
+          "office",
+          "adobe_creative"
+        ],
+        "description": "Creative professional with Adobe CC"
+      },
+      "LEGACY": {
+        "weight": 0.05,
+        "packs": [
+          "base",
+          "office",
+          "legacy"
+        ],
+        "description": "Upgraded from Windows 7/8"
+      }
+    },
+    "tier_3_plus": {
+      "CREATIVE": {
+        "weight": 0.3,
+        "packs": [
+          "base",
+          "office",
+          "adobe_creative",
+          "google_fonts"
+        ],
+        "description": "Creative professional with full Adobe suite"
+      },
+      "TECH": {
+        "weight": 0.3,
+        "packs": [
+          "base",
+          "office",
+          "google_fonts",
+          "developer"
+        ],
+        "description": "Developer workstation"
+      },
+      "OFFICE": {
+        "weight": 0.3,
+        "packs": [
+          "base",
+          "office"
+        ],
+        "description": "High-end corporate workstation"
+      },
+      "CLEAN": {
+        "weight": 0.1,
+        "packs": [
+          "base"
+        ],
+        "description": "Enthusiast with minimal bloat"
+      }
+    }
+  },
+  "linux": {
+    "tier_0_2": {
+      "CLEAN": {
+        "weight": 0.6,
+        "packs": [
+          "base"
+        ],
+        "description": "Minimal Linux installation"
+      },
+      "TECH": {
+        "weight": 0.25,
+        "packs": [
+          "base",
+          "developer",
+          "google_fonts"
+        ],
+        "description": "Linux developer"
+      },
+      "OFFICE": {
+        "weight": 0.1,
+        "packs": [
+          "base",
+          "libreoffice"
+        ],
+        "description": "LibreOffice user"
+      },
+      "DISTRO": {
+        "weight": 0.05,
+        "packs": [
+          "base",
+          "system_specific"
+        ],
+        "description": "Distribution-specific fonts"
+      }
+    },
+    "tier_3_plus": {
+      "TECH": {
+        "weight": 0.6,
+        "packs": [
+          "base",
+          "developer",
+          "google_fonts",
+          "libreoffice"
+        ],
+        "description": "Power developer workstation"
+      },
+      "CLEAN": {
+        "weight": 0.2,
+        "packs": [
+          "base",
+          "developer"
+        ],
+        "description": "Minimalist power user"
+      },
+      "OFFICE": {
+        "weight": 0.15,
+        "packs": [
+          "base",
+          "libreoffice",
+          "google_fonts"
+        ],
+        "description": "Office work on Linux"
+      },
+      "DISTRO": {
+        "weight": 0.05,
+        "packs": [
+          "base",
+          "system_specific",
+          "developer"
+        ],
+        "description": "Distribution specialist"
+      }
+    }
+  },
+  "macos": {
+    "tier_1_2": {
+      "CLEAN": {
+        "weight": 0.4,
+        "packs": [
+          "base"
+        ],
+        "description": "Standard macOS user"
+      },
+      "IWORK": {
+        "weight": 0.3,
+        "packs": [
+          "base",
+          "iwork"
+        ],
+        "description": "Mac user with Pages/Keynote"
+      },
+      "OFFICE": {
+        "weight": 0.15,
+        "packs": [
+          "base",
+          "office"
+        ],
+        "description": "Mac user with MS Office"
+      },
+      "CREATIVE": {
+        "weight": 0.1,
+        "packs": [
+          "base",
+          "adobe_creative",
+          "iwork"
+        ],
+        "description": "Creative professional"
+      },
+      "TECH": {
+        "weight": 0.05,
+        "packs": [
+          "base",
+          "developer"
+        ],
+        "description": "Mac developer"
+      }
+    },
+    "tier_3_plus": {
+      "CREATIVE": {
+        "weight": 0.5,
+        "packs": [
+          "base",
+          "adobe_creative",
+          "iwork",
+          "office"
+        ],
+        "description": "Professional creative with full Adobe suite"
+      },
+      "OFFICE": {
+        "weight": 0.2,
+        "packs": [
+          "base",
+          "office",
+          "iwork"
+        ],
+        "description": "Corporate Mac user"
+      },
+      "TECH": {
+        "weight": 0.2,
+        "packs": [
+          "base",
+          "developer",
+          "iwork"
+        ],
+        "description": "macOS developer"
+      },
+      "CLEAN": {
+        "weight": 0.1,
+        "packs": [
+          "base"
+        ],
+        "description": "Minimalist Mac user"
+      }
+    }
+  }
+}
